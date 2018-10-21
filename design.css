@@ -1,0 +1,105 @@
+/* 전체 레이아웃 규격, 헤더 */
+body {
+	background-image: url('pattern_index.jpg');
+}
+a {
+	text-decoration: none;
+	color: rgba(244, 244, 244, 1.0);
+}
+
+#wrapper {
+	width: 800px;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+}
+header {
+	margin: 10px;
+	background-color: rgba(35, 44, 47, 1.0);
+	padding-left: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	text-align: left;
+	color: rgba(244, 244, 244, 1.0);
+	font-size: 28px;
+	text-shadow: 2px 2px rgba(255, 255, 255, 0.1);
+	
+}
+nav {
+	width: 25%;
+	float: left;
+}
+section {
+	width: 75%;
+	float: right;
+}
+
+
+/* 메뉴 */
+#menu {
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: rgba(35, 44, 47, 0.8);
+	margin: 10px;
+	padding: 20px;
+	
+}
+#menu p {
+	margin: 10px;
+	font-size: 24px;
+	color: rgba(244, 244, 244, 1.0);
+}
+#menu ul {
+	margin-top: 35px;
+	padding: 0;
+	list-style: none;
+	line-height: 50px;
+	font-size: 22px;
+}
+#menu ul a:hover {
+	color: yellow;
+}
+
+/* 본문 */
+#content {
+	margin: 10px;
+	border: 30px solid transparent; /* border 필수 */
+	border-image: url('border.png') 150 round;
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 25px;
+
+	
+}
+
+#content hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#content table {
+	width: 80%;
+}
+#content td {
+	border: 2px solid gray;
+	background-color: white;
+}
+
+#content #table_left {
+	width: 70px;
+	background-color: rgba(222, 222, 233, 1.0);
+}
+
+#content h1 {
+	text-shadow: 3px 3px 3px #888888;
+}
+
+#message_name {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+}
+#message_content {
+	width: 350px;
+	resize: none;
+}
+
